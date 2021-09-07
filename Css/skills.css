@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containment {
+ padding:0px 20px;
+ text-align: center;
+}
+
+.containment .sList img{
+  width:60%;
+}
+.containment .sList p{
+  margin:20px 0px;
+}
+.containment .sList ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.containment .sList ul li{
+  font-size: 0.8em;
+  margin:10px;
+  list-style-type: none;
+  width:100px;
+background: #d0d2d5;
+  padding:10px 0px;
+  border-radius: 20px;
+}
+.containment .sList ul li:nth-child(even){
+  background:#302f42;
+  color:white;
+}
+.containment .playMusic{
+  margin-top:20px;
+  cursor: pointer;
+  margin-left: auto;
+  display:flex;
+  justify-content: space-around;
+  margin-right: auto;
+  max-width:150px;
+  border-radius: 20px;
+  padding:10px 20px;
+  background: #adb6d7;
+}
+.containment .playMusic p{
+  color: white;
+  font-size: 0.8em;
+}
+@media (max-width:540px){
+  .containment .sList img{
+    width:100%;
+  }
+  .containment .sList ul{
+    grid-template-columns: repeat(3, 32%);
+  }
+}
+@media (max-width:441px){
+  .containment .sList ul{
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+/*# sourceMappingURL=skills.css.map */
