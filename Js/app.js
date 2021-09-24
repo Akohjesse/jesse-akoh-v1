@@ -37,6 +37,7 @@ function openMenu() {
 	}
 	jesse = !jesse;
 }
+
 	var jamUp = document.querySelector(".playMusic");
 	var flag = true;
 	var myself = new Audio('Additives/myself.mp3');
