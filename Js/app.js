@@ -38,19 +38,5 @@ function openMenu() {
 	jesse = !jesse;
 }
 
-	var jamUp = document.querySelector(".playMusic");
-	var flag = true;
-	var myself = new Audio('Additives/myself.mp3');
 	
-	jamUp.addEventListener("click", function() {
-		if (flag) {
-			myself.play();
-			document.querySelector('.jam-up i').className = `ri-pause-line`;
-			
-		} else {
-			myself.pause();
-			document.querySelector('.jam-up i').className = `ri-play-fill`
-		}
-		flag = !flag;
-	})
 
