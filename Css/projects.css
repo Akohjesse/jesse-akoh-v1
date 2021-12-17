@@ -52,6 +52,13 @@ body {
   border-radius: 10px;
   box-shadow: inset 0px 1px 20px #d6d4d4;
 }
+.project_wrap{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  margin: 10% 0px;
+}
 
 .projects .project-child .sub {
   width: 100%;

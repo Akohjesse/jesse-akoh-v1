@@ -2,10 +2,12 @@
 var projectBtn = document.getElementById("project");
 var skillBtn = document.getElementById("skill");
 var skillSet = document.querySelector(".skill-set");
-var projects = document.querySelector(".projects");
+var projects = document.querySelectorAll(".projects");
 projectBtn.addEventListener("click", function showProject() {
 	skillSet.style = "display:none";
-	projects.style = "display:grid";
+	projects.forEach(item => {
+            item.style = "display:grid";
+	})
 	skillBtn.style = "border-bottom:none;";
 	projectBtn.style = " border-bottom:3px solid rgb(173, 182, 215); font-weight:400;";
 });
