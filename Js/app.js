@@ -14,7 +14,9 @@ projectBtn.addEventListener("click", function showProject() {
 skillBtn.addEventListener("click", function showSkill() {
 	skillSet.classList.add("animate__animated", "animate__zoomIn");
 	skillSet.style = "display:block";
-	projects.style = "display:none";
+	projects.forEach(item => {
+		item.style = "display:none";
+})
 	skillBtn.style = " border-bottom:3px solid rgb(173, 182, 215); font-weight:400;";
 	projectBtn.style = "";
 });
