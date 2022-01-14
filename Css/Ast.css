@@ -32,10 +32,7 @@
      .remote{
          display:none;
      }
-     .toggle i{
-         font-size:35px;
-         color:rgb(250, 216, 78);
-     }
+
      .tlspkpk{
          display:flex;
          width: 100%;
@@ -65,17 +62,4 @@
      .divette{
          display:none;
      }
- }
- @media (max-width:480px){
-    .moon{
-        position: absolute;
-        top:13%;
-        left:75%;
- 
-     }
-     .moon i{
-         font-size:30px;
-         color:rgb(250, 216, 78);
-     }
-
  }

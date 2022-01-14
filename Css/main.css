@@ -421,9 +421,6 @@ main {
 }
 
 @media (max-width: 480px) {
-  body{
-    
-  }
   .section .dynamic .blob .container {
     padding: 0px 0px;
   }
