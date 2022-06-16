@@ -1,2 +1,2 @@
 # Jesse-Akoh
-My Portfolio website built with Javascript, Scss and Html
+My Portfolio website built with Javascript and Scss
